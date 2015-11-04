@@ -1,0 +1,207 @@
+Num,Model,method Argument Value,Type,Packages,Tuning Parameters
+1,Boosted Classification Trees,ada,Classification,"ada, plyr","iter, maxdepth, nu"
+2,Bagged AdaBoost,AdaBag,Classification,"adabag, plyr","mfinal, maxdepth"
+3,AdaBoost.M1,AdaBoost.M1,Classification,"adabag, plyr","mfinal, maxdepth, coeflearn"
+4,Adaptive Mixture Discriminant Analysis,amdai,Classification,adaptDA,model
+5,Adaptive-Network-Based Fuzzy Inference System,ANFIS,Regression,frbs,"num.labels, max.iter"
+6,Model Averaged Neural Network,avNNet,Dual Use,nnet,"size, decay, bag"
+7,Naive Bayes Classifier with Attribute Weighting,awnb,Classification,bnclassify,smooth
+8,Tree Augmented Naive Bayes Classifier with Attribute Weighting,awtan,Classification,bnclassify,"score, smooth"
+9,Bagged Model,bag,Dual Use,caret,vars
+10,Bagged MARS,bagEarth,Dual Use,earth,"nprune, degree"
+11,Bagged MARS using gCV Pruning,bagEarthGCV,Dual Use,earth,degree
+12,Bagged Flexible Discriminant Analysis,bagFDA,Classification,"earth, mda","degree, nprune"
+13,Bagged FDA using gCV Pruning,bagFDAGCV,Classification,earth,degree
+14,Bayesian Additive Regression Trees,bartMachine,Dual Use,bartMachine,"num_trees, k, alpha, beta, nu"
+15,Bayesian Generalized Linear Model,bayesglm,Dual Use,arm,None
+16,Self-Organizing Map,bdk,Dual Use,kohonen,"xdim, ydim, xweight, topo"
+17,Binary Discriminant Analysis,binda,Classification,binda,lambda.freqs
+18,Boosted Tree,blackboost,Dual Use,"party, mboost, plyr","mstop, maxdepth"
+19,Random Forest with Additional Feature Selection,Boruta,Dual Use,"Boruta, randomForest",mtry
+20,Bayesian Regularized Neural Networks,brnn,Regression,brnn,neurons
+21,Boosted Linear Model,BstLm,Dual Use,"bst, plyr","mstop, nu"
+22,Boosted Smoothing Spline,bstSm,Dual Use,"bst, plyr","mstop, nu"
+23,Boosted Tree,bstTree,Dual Use,"bst, plyr","mstop, maxdepth, nu"
+24,C5.0,C5.0,Classification,"C50, plyr","trials, model, winnow"
+25,Cost-Sensitive C5.0,C5.0Cost,Classification,"C50, plyr","trials, model, winnow, cost"
+26,Single C5.0 Ruleset,C5.0Rules,Classification,C50,None
+27,Single C5.0 Tree,C5.0Tree,Classification,C50,None
+28,Conditional Inference Random Forest,cforest,Dual Use,party,mtry
+29,CHi-squared Automated Interaction Detection,chaid,Classification,CHAID,"alpha2, alpha3, alpha4"
+30,SIMCA,CSimca,Classification,rrcovHD,None
+31,Conditional Inference Tree,ctree,Dual Use,party,mincriterion
+32,Conditional Inference Tree,ctree2,Dual Use,party,maxdepth
+33,Cubist,cubist,Regression,Cubist,"committees, neighbors"
+34,Dynamic Evolving Neural-Fuzzy Inference System,DENFIS,Regression,frbs,"Dthr, max.iter"
+35,Stacked AutoEncoder Deep Neural Network,dnn,Dual Use,deepnet,"layer1, layer2, layer3, hidden_dropout, visible_dropout"
+36,Linear Distance Weighted Discrimination,dwdLinear,Classification,kerndwd,"lambda, qval"
+37,Distance Weighted Discrimination with Polynomial Kernel,dwdPoly,Classification,kerndwd,"lambda, qval, degree, scale"
+38,Distance Weighted Discrimination with Radial Basis Function Kernel,dwdRadial,Classification,"kernlab, kerndwd","lambda, qval, sigma"
+39,Multivariate Adaptive Regression Spline,earth,Dual Use,earth,"nprune, degree"
+40,Extreme Learning Machine,elm,Dual Use,elmNN,"nhid, actfun"
+41,Elasticnet,enet,Regression,elasticnet,"fraction, lambda"
+42,Ensemble Partial Least Squares Regression,enpls,Regression,enpls,maxcomp
+43,Ensemble Partial Least Squares Regression with Feature Selection,enpls.fs,Regression,enpls,"maxcomp, threshold"
+44,Tree Models from Genetic Algorithms,evtree,Dual Use,evtree,alpha
+45,Random Forest by Randomization,extraTrees,Dual Use,extraTrees,"mtry, numRandomCuts"
+46,Flexible Discriminant Analysis,fda,Classification,"earth, mda","degree, nprune"
+47,Fuzzy Rules Using Genetic Cooperative-Competitive Learning and Pittsburgh,FH.GBML,Classification,frbs,"max.num.rule, popu.size, max.gen"
+48,Fuzzy Inference Rules by Descent Method,FIR.DM,Regression,frbs,"num.labels, max.iter"
+49,Ridge Regression with Variable Selection,foba,Regression,foba,"k, lambda"
+50,Fuzzy Rules Using Chi's Method,FRBCS.CHI,Classification,frbs,"num.labels, type.mf"
+51,Fuzzy Rules with Weight Factor,FRBCS.W,Classification,frbs,"num.labels, type.mf"
+52,Simplified TSK Fuzzy Rules,FS.HGD,Regression,frbs,"num.labels, max.iter"
+53,Generalized Additive Model using Splines,gam,Dual Use,mgcv,"select, method"
+54,Boosted Generalized Additive Model,gamboost,Dual Use,mboost,"mstop, prune"
+55,Generalized Additive Model using LOESS,gamLoess,Dual Use,gam,"span, degree"
+56,Generalized Additive Model using Splines,gamSpline,Dual Use,gam,df
+57,Gaussian Process,gaussprLinear,Dual Use,kernlab,None
+58,Gaussian Process with Polynomial Kernel,gaussprPoly,Dual Use,kernlab,"degree, scale"
+59,Gaussian Process with Radial Basis Function Kernel,gaussprRadial,Dual Use,kernlab,sigma
+60,Stochastic Gradient Boosting,gbm,Dual Use,"gbm, plyr","n.trees, interaction.depth, shrinkage, n.minobsinnode"
+61,Multivariate Adaptive Regression Splines,gcvEarth,Dual Use,earth,degree
+62,Fuzzy Rules via MOGUL,GFS.FR.MOGUL,Regression,frbs,"max.gen, max.iter, max.tune"
+63,Fuzzy Rules Using Genetic Cooperative-Competitive Learning,GFS.GCCL,Classification,frbs,"num.labels, popu.size, max.gen"
+64,Genetic Lateral Tuning and Rule Selection of Linguistic Fuzzy Systems,GFS.LT.RS,Regression,frbs,"popu.size, num.labels, max.gen"
+65,Fuzzy Rules via Thrift,GFS.THRIFT,Regression,frbs,"popu.size, num.labels, max.gen"
+66,Generalized Linear Model,glm,Dual Use,,None
+67,Boosted Generalized Linear Model,glmboost,Dual Use,mboost,"mstop, prune"
+68,glmnet,glmnet,Dual Use,glmnet,"alpha, lambda"
+69,Generalized Linear Model with Stepwise Feature Selection,glmStepAIC,Dual Use,MASS,None
+70,Generalized Partial Least Squares,gpls,Classification,gpls,K.prov
+71,Heteroscedastic Discriminant Analysis,hda,Classification,hda,"gamma, lambda, newdim"
+72,High Dimensional Discriminant Analysis,hdda,Classification,HDclassif,"threshold, model"
+73,Hybrid Neural Fuzzy Inference System,HYFIS,Regression,frbs,"num.labels, max.iter"
+74,Independent Component Regression,icr,Regression,fastICA,n.comp
+75,C4.5-like Trees,J48,Classification,RWeka,C
+76,Rule-Based Classifier,JRip,Classification,RWeka,NumOpt
+77,Partial Least Squares,kernelpls,Dual Use,pls,ncomp
+78,k-Nearest Neighbors,kknn,Dual Use,kknn,"kmax, distance, kernel"
+79,k-Nearest Neighbors,knn,Dual Use,,k
+80,Polynomial Kernel Regularized Least Squares,krlsPoly,Regression,KRLS,"lambda, degree"
+81,Radial Basis Function Kernel Regularized Least Squares,krlsRadial,Regression,"KRLS, kernlab","lambda, sigma"
+82,Least Angle Regression,lars,Regression,lars,fraction
+83,Least Angle Regression,lars2,Regression,lars,step
+84,The lasso,lasso,Regression,elasticnet,fraction
+85,Linear Discriminant Analysis,lda,Classification,MASS,None
+86,Linear Discriminant Analysis,lda2,Classification,MASS,dimen
+87,Linear Regression with Backwards Selection,leapBackward,Regression,leaps,nvmax
+88,Linear Regression with Forward Selection,leapForward,Regression,leaps,nvmax
+89,Linear Regression with Stepwise Selection,leapSeq,Regression,leaps,nvmax
+90,Robust Linear Discriminant Analysis,Linda,Classification,rrcov,None
+91,Linear Regression,lm,Regression,,None
+92,Linear Regression with Stepwise Selection,lmStepAIC,Regression,MASS,None
+93,Logistic Model Trees,LMT,Classification,RWeka,iter
+94,Localized Linear Discriminant Analysis,loclda,Classification,klaR,k
+95,Bagged Logic Regression,logicBag,Dual Use,logicFS,"nleaves, ntrees"
+96,Boosted Logistic Regression,LogitBoost,Classification,caTools,nIter
+97,Logic Regression,logreg,Dual Use,LogicReg,"treesize, ntrees"
+98,Least Squares Support Vector Machine,lssvmLinear,Classification,kernlab,None
+99,Least Squares Support Vector Machine with Polynomial Kernel,lssvmPoly,Classification,kernlab,"degree, scale"
+100,Least Squares Support Vector Machine with Radial Basis Function Kernel,lssvmRadial,Classification,kernlab,sigma
+101,Learning Vector Quantization,lvq,Classification,class,"size, k"
+102,Model Tree,M5,Regression,RWeka,"pruned, smoothed, rules"
+103,Model Rules,M5Rules,Regression,RWeka,"pruned, smoothed"
+104,Mixture Discriminant Analysis,mda,Classification,mda,subclasses
+105,Maximum Uncertainty Linear Discriminant Analysis,Mlda,Classification,HiDimDA,None
+106,Multi-Layer Perceptron,mlp,Dual Use,RSNNS,size
+107,Multi-Layer Perceptron,mlpWeightDecay,Dual Use,RSNNS,"size, decay"
+108,Penalized Multinomial Regression,multinom,Classification,nnet,decay
+109,Naive Bayes,nb,Classification,klaR,"fL, usekernel"
+110,Naive Bayes Classifier,nbDiscrete,Classification,bnclassify,smooth
+111,Semi-Naive Structure Learner Wrapper,nbSearch,Classification,bnclassify,"k, epsilon, smooth, final_smooth, direction"
+112,Neural Network,neuralnet,Regression,neuralnet,"layer1, layer2, layer3"
+113,Neural Network,nnet,Dual Use,nnet,"size, decay"
+114,Non-Negative Least Squares,nnls,Regression,nnls,None
+115,Tree-Based Ensembles,nodeHarvest,Dual Use,nodeHarvest,"maxinter, mode"
+116,Oblique Trees,oblique.tree,Classification,oblique.tree,"oblique.splits, variable.selection"
+117,Single Rule Classification,OneR,Classification,RWeka,None
+118,Oblique Random Forest,ORFlog,Classification,obliqueRF,mtry
+119,Oblique Random Forest,ORFpls,Classification,obliqueRF,mtry
+120,Oblique Random Forest,ORFridge,Classification,obliqueRF,mtry
+121,Oblique Random Forest,ORFsvm,Classification,obliqueRF,mtry
+122,Optimal Weighted Nearest Neighbor Classifier,ownn,Classification,snn,K
+123,Nearest Shrunken Centroids,pam,Classification,pamr,threshold
+124,Parallel Random Forest,parRF,Dual Use,"e1071, randomForest",mtry
+125,Rule-Based Classifier,PART,Classification,RWeka,"threshold, pruned"
+126,partDSA,partDSA,Dual Use,partDSA,"cut.off.growth, MPD"
+127,Neural Networks with Feature Extraction,pcaNNet,Dual Use,nnet,"size, decay"
+128,Principal Component Analysis,pcr,Regression,pls,ncomp
+129,Penalized Discriminant Analysis,pda,Classification,mda,lambda
+130,Penalized Discriminant Analysis,pda2,Classification,mda,df
+131,Penalized Linear Regression,penalized,Regression,penalized,"lambda1, lambda2"
+132,Penalized Linear Discriminant Analysis,PenalizedLDA,Classification,"penalizedLDA, plyr","lambda, K"
+133,Penalized Logistic Regression,plr,Classification,stepPlr,"lambda, cp"
+134,Partial Least Squares,pls,Dual Use,pls,ncomp
+135,Partial Least Squares Generalized Linear Models,plsRglm,Dual Use,plsRglm,"nt, alpha.pvals.expli"
+136,Ordered Logistic or Probit Regression,polr,Classification,MASS,None
+137,Projection Pursuit Regression,ppr,Regression,,nterms
+138,Greedy Prototype Selection,protoclass,Classification,"proxy, protoclass","eps, Minkowski"
+139,Knn regression via sklearn.neighbors.KNeighborsRegressor,pythonKnnReg,Regression,rPython,"n_neighbors, weights, algorithm, leaf_size, metric, p"
+140,Quadratic Discriminant Analysis,qda,Classification,MASS,None
+141,Robust Quadratic Discriminant Analysis,QdaCov,Classification,rrcov,None
+142,Quantile Random Forest,qrf,Regression,quantregForest,mtry
+143,Quantile Regression Neural Network,qrnn,Regression,qrnn,"n.hidden, penalty, bag"
+144,Random Forest,ranger,Dual Use,"e1071, ranger",mtry
+145,Radial Basis Function Network,rbf,Dual Use,RSNNS,size
+146,Radial Basis Function Network,rbfDDA,Dual Use,RSNNS,negativeThreshold
+147,Regularized Discriminant Analysis,rda,Classification,klaR,"gamma, lambda"
+148,Relaxed Lasso,relaxo,Regression,"relaxo, plyr","lambda, phi"
+149,Random Forest,rf,Dual Use,randomForest,mtry
+150,Random Ferns,rFerns,Classification,rFerns,depth
+151,Factor-Based Linear Discriminant Analysis,RFlda,Classification,HiDimDA,q
+152,Random Forest Rule-Based Model,rfRules,Dual Use,"randomForest, inTrees, plyr","mtry, maxdepth"
+153,Ridge Regression,ridge,Regression,elasticnet,lambda
+154,Random k-Nearest Neighbors,rknn,Dual Use,rknn,"k, mtry"
+155,Random k-Nearest Neighbors with Feature Selection,rknnBel,Dual Use,"rknn, plyr","k, mtry, d"
+156,Robust Linear Model,rlm,Regression,MASS,None
+157,Robust Mixture Discriminant Analysis,rmda,Classification,robustDA,"K, model"
+158,ROC-Based Classifier,rocc,Classification,rocc,xgenes
+159,Rotation Forest,rotationForest,Classification,rotationForest,"K, L"
+160,Rotation Forest,rotationForestCp,Classification,"rpart, plyr, rotationForest","K, L, cp"
+161,CART,rpart,Dual Use,rpart,cp
+162,CART,rpart2,Dual Use,rpart,maxdepth
+163,Cost-Sensitive CART,rpartCost,Classification,rpart,"cp, Cost"
+164,Quantile Regression with LASSO penalty,rqlasso,Regression,rqPen,lambda
+165,Non-Convex Penalized Quantile Regression,rqnc,Regression,rqPen,"lambda, penalty"
+166,Regularized Random Forest,RRF,Dual Use,"randomForest, RRF","mtry, coefReg, coefImp"
+167,Regularized Random Forest,RRFglobal,Dual Use,RRF,"mtry, coefReg"
+168,Robust Regularized Linear Discriminant Analysis,rrlda,Classification,rrlda,"lambda, hp, penalty"
+169,Robust SIMCA,RSimca,Classification,rrcovHD,None
+170,Relevance Vector Machines with Linear Kernel,rvmLinear,Regression,kernlab,None
+171,Relevance Vector Machines with Polynomial Kernel,rvmPoly,Regression,kernlab,"scale, degree"
+172,Relevance Vector Machines with Radial Basis Function Kernel,rvmRadial,Regression,kernlab,sigma
+173,Subtractive Clustering and Fuzzy c-Means Rules,SBC,Regression,frbs,"r.a, eps.high, eps.low"
+174,Shrinkage Discriminant Analysis,sda,Classification,sda,"diagonal, lambda"
+175,Stepwise Diagonal Linear Discriminant Analysis,sddaLDA,Classification,SDDA,None
+176,Stepwise Diagonal Quadratic Discriminant Analysis,sddaQDA,Classification,SDDA,None
+177,Sparse Distance Weighted Discrimination,sdwd,Classification,sdwd,"lambda, lambda2"
+178,Partial Least Squares,simpls,Dual Use,pls,ncomp
+179,Fuzzy Rules Using the Structural Learning Algorithm on Vague Environment,SLAVE,Classification,frbs,"num.labels, max.iter, max.gen"
+180,Stabilized Linear Discriminant Analysis,slda,Classification,ipred,None
+181,Sparse Mixture Discriminant Analysis,smda,Classification,sparseLDA,"NumVars, lambda, R"
+182,Stabilized Nearest Neighbor Classifier,snn,Classification,snn,lambda
+183,Sparse Linear Discriminant Analysis,sparseLDA,Classification,sparseLDA,"NumVars, lambda"
+184,Sparse Partial Least Squares,spls,Dual Use,spls,"K, eta, kappa"
+185,Linear Discriminant Analysis with Stepwise Feature Selection,stepLDA,Classification,"klaR, MASS","maxvar, direction"
+186,Quadratic Discriminant Analysis with Stepwise Feature Selection,stepQDA,Classification,"klaR, MASS","maxvar, direction"
+187,Supervised Principal Component Analysis,superpc,Regression,superpc,"threshold, n.components"
+188,Support Vector Machines with Boundrange String Kernel,svmBoundrangeString,Dual Use,kernlab,"length, C"
+189,Support Vector Machines with Exponential String Kernel,svmExpoString,Dual Use,kernlab,"lambda, C"
+190,Support Vector Machines with Linear Kernel,svmLinear,Dual Use,kernlab,C
+191,Support Vector Machines with Linear Kernel,svmLinear2,Dual Use,e1071,cost
+192,Support Vector Machines with Polynomial Kernel,svmPoly,Dual Use,kernlab,"degree, scale, C"
+193,Support Vector Machines with Radial Basis Function Kernel,svmRadial,Dual Use,kernlab,"sigma, C"
+194,Support Vector Machines with Radial Basis Function Kernel,svmRadialCost,Dual Use,kernlab,C
+195,Support Vector Machines with Class Weights,svmRadialWeights,Classification,kernlab,"sigma, C, Weight"
+196,Support Vector Machines with Spectrum String Kernel,svmSpectrumString,Dual Use,kernlab,"length, C"
+197,Tree Augmented Naive Bayes Classifier,tan,Classification,bnclassify,"score, smooth"
+198,Tree Augmented Naive Bayes Classifier Structure Learner Wrapper,tanSearch,Classification,bnclassify,"k, epsilon, smooth, final_smooth, sp"
+199,Bagged CART,treebag,Dual Use,"ipred, plyr, e1071",None
+200,Variational Bayesian Multinomial Probit Regression,vbmpRadial,Classification,vbmp,estimateTheta
+201,Partial Least Squares,widekernelpls,Dual Use,pls,ncomp
+202,Wang and Mendel Fuzzy Rules,WM,Regression,frbs,"num.labels, type.mf"
+203,Weighted Subspace Random Forest,wsrf,Classification,wsrf,mtry
+204,eXtreme Gradient Boosting,xgbLinear,Dual Use,xgboost,"nrounds, lambda, alpha"
+205,eXtreme Gradient Boosting,xgbTree,Dual Use,"xgboost, plyr","nrounds, max_depth, eta"
+206,Self-Organizing Maps,xyf,Dual Use,kohonen,"xdim, ydim, xweight, topo"
