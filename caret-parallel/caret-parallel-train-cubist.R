@@ -1,4 +1,4 @@
-# Run multiple caret models in parallel using lapply
+# Run caret models "cubist" in parallel
 # https://github.com/tobigithub/caret-machine-learning
 # Tobias Kind (2015)
 
