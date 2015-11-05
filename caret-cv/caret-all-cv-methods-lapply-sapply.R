@@ -10,6 +10,9 @@
   all <- lapply(cvMethods ,function(x) {set.seed(123); print(x); tc <- trainControl(method=(x))
                     fit1 <- train(bbbDescr, logBBB, trControl=tc, method="knn") })  
   all
+  sapply(all,getTrainPerf)
+  lapply(all,getTrainPerf)
+
 
 
 # All cross-validation methods applied using sapply (matrix result)
