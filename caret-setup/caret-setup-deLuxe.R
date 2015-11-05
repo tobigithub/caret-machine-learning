@@ -11,6 +11,7 @@ biocLite()
 biocLite(c("arm", "gpls", "logicFS", "vbmp"))
  
 # installs most of the 340 caret dependencies + seven commonly used but not all of them
+# Make sure to allow firewall access for doMPI if needed
 mostCommon <- c("caret", "AppliedPredictiveModeling", "ggplot2", "data.table", "plyr", "knitr", "shiny", "xts", "lattice")
 install.packages(mostCommon, dependencies = c("Imports", "Depends", "Suggests"))          
 
