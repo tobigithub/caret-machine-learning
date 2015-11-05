@@ -5,7 +5,7 @@
 # 1) load few caret packages from BioConductor, this will create most troubles
 # this is a static solution (not good) check with below URL for more info
 # https://github.com/topepo/caret/blob/master/release_process/update_pkgs.R
-source("https://bioconductor.org/biocLite.R")
+source("http://bioconductor.org/biocLite.R")
 biocLite()
 biocLite(c("arm", "gpls", "logicFS", "vbmp"))
  
