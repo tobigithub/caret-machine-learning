@@ -5,6 +5,7 @@
 # 1) load few caret packages from BioConductor, this will create most troubles
 # this is a static solution (not good) check with below URL for more info
 # https://github.com/topepo/caret/blob/master/release_process/update_pkgs.R
+# Answer "n" when asked for updates 
 source("http://bioconductor.org/biocLite.R")
 biocLite()
 biocLite(c("arm", "gpls", "logicFS", "vbmp"))
@@ -18,6 +19,7 @@ install.packages(mostCommon, dependencies = c("Imports", "Depends", "Suggests"))
 # during runtime, may create errors
 require(caret); sessionInfo();
 caretLibs <- unique(unlist(lapply(getModelInfo(), function(x) x$library)))
+detach("package:caret", unload=TRUE)
 install.packages(caretLibs, dependencies = c("Imports", "Depends", "Suggests")) 
 
 # "Warning: cannot remove prior installation of package"
