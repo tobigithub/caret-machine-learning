@@ -12,7 +12,7 @@ require(caret); sessionInfo();
 caretLibs <- unique(unlist(lapply(getModelInfo(), function(x) x$library)))
 install.packages(caretLibs, dependencies = c("Imports", "Depends", "Suggests")) 
 
-# now load caret packages from BioConductor
+# now load caret packages from BioConductor, this will create most troubles
 # this is a static solution (not good) check with below URL for more info
 # https://github.com/topepo/caret/blob/master/release_process/update_pkgs.R
 source("https://bioconductor.org/biocLite.R")
