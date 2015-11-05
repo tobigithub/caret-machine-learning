@@ -19,5 +19,11 @@ source("https://bioconductor.org/biocLite.R")
 biocLite()
 biocLite(c("arm", "gpls", "logicFS", "vbmp"))
 
+# in case of final installation issues, check packages plyr, MASS and ggplot2
+# the library directories may have to be removed manually with Administrator access
+# and R has to be closed and restarted and the following two lines have to be executed 
+## rP <- c("plyr","ggplot2","MASS")
+## install.packages(rP, dependencies = c("Imports", "Depends", "Suggests")) 
+
 ### END
 
