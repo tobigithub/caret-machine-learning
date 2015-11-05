@@ -20,3 +20,5 @@
   all <- sapply(cvMethods ,function(x) {set.seed(123); print(x); tc <- trainControl(method=(x))
                     fit1 <- train(bbbDescr, logBBB, trControl=tc, method="knn") }); all 
   all[4, ]
+  
+  ### END
