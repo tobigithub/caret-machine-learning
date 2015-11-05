@@ -1,4 +1,4 @@
-# Run multiple caret models in parallel using lapply
+# Installation of caret package with most dependencies
 # https://github.com/tobigithub/caret-machine-learning
 # Tobias Kind (2015)
 
