@@ -19,10 +19,13 @@ source("https://bioconductor.org/biocLite.R")
 biocLite()
 biocLite(c("arm", "gpls", "logicFS", "vbmp"))
 
+# "Warning: cannot remove prior installation of package"
 # in case of final installation issues, check packages plyr, MASS and ggplot2
-# the library directories may have to be removed manually with Administrator access
-# and R has to be closed and restarted and the following two lines below have to be executed
+# the library directories may have to be removed manually with Administrator access.
+# get the library location with .libPaths()
+# R has to be closed and restarted and the following two lines below have to be executed
 # (additional issues may occour under WIN with doMPI and msmpi.dll)
+
 ## rP <- c("plyr","ggplot2","MASS")
 ## install.packages(rP, dependencies = c("Imports", "Depends", "Suggests")) 
 
