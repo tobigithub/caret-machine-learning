@@ -10,18 +10,27 @@ source("http://bioconductor.org/biocLite.R")
 biocLite()
 biocLite(c("arm", "gpls", "logicFS", "vbmp"))
  
-# installs most of the 340 caret dependencies + seven commonly used but not all of them
+# 2) installs most of the 340 caret dependencies + seven commonly used but not all of them
 # Make sure to allow firewall access for doMPI if needed
 mostCommon <- c("caret", "AppliedPredictiveModeling", "ggplot2", "data.table", "plyr", "knitr", "shiny", "xts", "lattice")
 install.packages(mostCommon, dependencies = c("Imports", "Depends", "Suggests"))          
 
-# then load caret and check which additional libraries covering 200 models need to be installed
+# 3) then load caret and check which additional libraries covering 200 models need to be installed
 # warnings will still exist; because caret loaded few dependencies they can not be updated
 # during runtime, may create errors
 require(caret); sessionInfo();
 caretLibs <- unique(unlist(lapply(getModelInfo(), function(x) x$library)))
 detach("package:caret", unload=TRUE)
 install.packages(caretLibs, dependencies = c("Imports", "Depends", "Suggests")) 
+
+# 4) load packages from R-Forge
+install.packages(c("CHAID"), repos="http://R-Forge.R-project.org")
+ 
+# 5) Restart R, clean-up mess, and say 'y' when asked
+# All packages that are not in CRAN such as SDDA need to be installed by hand
+source("http://bioconductor.org/biocLite.R")
+biocLite()
+biocLite(c("gpls", "logicFS", "rPython", "SDDA", "vbmp"))
 
 # "Warning: cannot remove prior installation of package"
 # in case of final installation issues, check packages plyr, MASS and ggplot2
