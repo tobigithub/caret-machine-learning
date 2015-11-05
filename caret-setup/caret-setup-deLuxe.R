@@ -23,14 +23,14 @@ caretLibs <- unique(unlist(lapply(getModelInfo(), function(x) x$library)))
 detach("package:caret", unload=TRUE)
 install.packages(caretLibs, dependencies = c("Imports", "Depends", "Suggests")) 
 
-# 4) load packages from R-Forge
+# 4) load packages from R-Forge also "rPython" maybe on CRAN and R-Forge
 install.packages(c("CHAID"), repos="http://R-Forge.R-project.org")
  
 # 5) Restart R, clean-up mess, and say 'y' when asked
 # All packages that are not in CRAN such as SDDA need to be installed by hand
 source("http://bioconductor.org/biocLite.R")
 biocLite()
-biocLite(c("gpls", "logicFS", "rPython", "SDDA", "vbmp"))
+biocLite(c("gpls", "logicFS", "vbmp"))
 
 # "Warning: cannot remove prior installation of package"
 # in case of final installation issues, check packages plyr, MASS and ggplot2
@@ -42,5 +42,7 @@ biocLite(c("gpls", "logicFS", "rPython", "SDDA", "vbmp"))
 ## rP <- c("plyr","ggplot2","MASS")
 ## install.packages(rP, dependencies = c("Imports", "Depends", "Suggests")) 
 
+# the final straw, after everything was messed-up, restart R and do it again
+# install.packages("caret", dependencies = c("Imports", "Depends", "Suggests"))          
 ### END
 
