@@ -4,3 +4,6 @@
 
 # installs most of the 300 caret dependencies  but not all of them
 install.packages("caret", dependencies = c("Imports", "Depends", "Suggests"))
+
+### END
+
