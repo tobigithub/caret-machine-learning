@@ -1,3 +1,7 @@
+# Run all cross-validations with method with qrf (Quantile Random Forest)
+# https://github.com/tobigithub/caret-machine-learning
+# Tobias Kind (2015)
+
 
 # load libs
 require(caret); data(BloodBrain); 
