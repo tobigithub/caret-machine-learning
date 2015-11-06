@@ -14,6 +14,7 @@
   # just to show the structure of output
   # sapply(all,getTrainPerf)
   # lapply(all,getTrainPerf)
+  
   # extract the used cvMethods (redundant because already incvMethods) 
   myNames <- lapply(1:6, function(x) all[[x]]$control$method)
   # save results
@@ -23,7 +24,7 @@
   # get the results
   results
  
-
+#---------------------------------------------------------------------------
 
 # All cross-validation methods applied using sapply (matrix result)
 # regression example using knn (very fast); "none" is not allowed for lapply
