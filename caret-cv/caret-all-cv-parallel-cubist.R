@@ -1,3 +1,12 @@
+# Run all cross-validations with method with cubist 
+# Read: http://rulequest.com/cubist-examples.html
+# Read: https://cran.r-project.org/web/packages/Cubist/vignettes/cubist.pdf
+# Read: http://www.r-bloggers.com/ensemble-learning-with-cubist-model/
+#
+# https://github.com/tobigithub/caret-machine-learning
+# Tobias Kind (2015)
+
+
 # load libs
 require(caret); data(BloodBrain); 
 
