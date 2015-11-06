@@ -3,6 +3,6 @@ The caret machine learning package [(WIKI)](http://topepo.github.io/caret/index.
 
 This R repository [https://github.com/tobigithub/caret-machine-learning/](https://github.com/tobigithub/caret-machine-learning/) collects practical working examples for many of the 200 classifications and regression models in caret and is geared towards practitioners. Example contributions from different fields are highly welcome.
 
-Please read more in the [**caret-machine-learning WIKI**] (https://github.com/tobigithub/caret-machine-learning/wiki) or browse the example R code.
+Please read more in this [**caret-machine-learning WIKI**] (https://github.com/tobigithub/caret-machine-learning/wiki) or browse the example R code.
 
 ---
