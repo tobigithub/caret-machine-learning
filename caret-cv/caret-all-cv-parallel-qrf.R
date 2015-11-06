@@ -35,3 +35,5 @@ stopCluster(cl); registerDoSEQ();
 # TrainRMSE     0.4199394 0.5450903 0.5264716 0.5210002 0.5127061  0.5539934
 # TrainRsquared 0.6829296 0.5193978 0.5474211 0.561647  0.5776622  0.5350395
 # method        "qrf"     "qrf"     "qrf"     "qrf"     "qrf"      "qrf"    
+
+### END
