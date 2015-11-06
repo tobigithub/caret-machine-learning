@@ -24,6 +24,11 @@
   # get the results
   results
  
+#               boot632   LGOCV     LOOCV     cv        repeatedcv boot     
+# TrainRMSE     0.619778  0.6275048 0.6309407 0.6192086 0.6192086  0.66943  
+# TrainRsquared 0.4009745 0.3554037 0.3429081 0.3831812 0.3831812  0.3140373
+# method        "knn"     "knn"     "knn"     "knn"     "knn"      "knn"    
+
 #---------------------------------------------------------------------------
 
 # All cross-validation methods applied using sapply (matrix result)
