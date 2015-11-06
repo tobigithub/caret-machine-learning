@@ -20,7 +20,7 @@
   # save results
   results <- sapply(all,getTrainPerf)
   # change column Names to cv methods
-   colnames(results) <- myNames; results
+   colnames(results) <- myNames; 
   # get the results
   results
  
