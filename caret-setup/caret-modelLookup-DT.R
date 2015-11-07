@@ -33,18 +33,19 @@ class(caretModels)
 
 # call web output with correct column names
 datatable(caretModels,  options = list(
- 		columnDefs = list(list(className = 'dt-left', targets = c(0,1,2,3,4,5))),
+ 		columnDefs = list(list(className = 'dt-left', targets = c(0,1,2,3,4,5,6))),
  		pageLength = MAX,
    		order = list(list(0, 'asc'))),
  		colnames = c('Num','model',' parameter', 'label', 'forReg', 'forClass',' probModel'),
  	        caption = paste('Caret models for regression and classification',Sys.time()),
  	        class = 'cell-border stripe')  %>% 	       
  	            formatStyle(2,
- 		    background = styleColorBar(x2, 'steelblue'),
+ 		    background = styleColorBar(1, 'steelblue'),
  		    backgroundSize = '100% 90%',
  		    backgroundRepeat = 'no-repeat',
  		    backgroundPosition = 'center'
  )
+ 
 ### END
 
 # Output will be in sortable table web browser and file index.html
