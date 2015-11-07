@@ -1,4 +1,17 @@
-# http://groupware.les.inf.puc-rio.br/har
+
+# Parallel Random Forest and knn with multiple CV methods
+# Data: http://groupware.les.inf.puc-rio.br/har
+# Sources used: 
+# http://bigcomputing.blogspot.com/2014/10/an-example-of-using-random-forest-in.html
+# https://www.coursera.org/specializations/jhudatascience?utm_medium=courseDescripTop
+# https://rstudio-pubs-static.s3.amazonaws.com/89748_264cbfde747d4d779d7bd6b9b3f31f45.html
+# Google -> "InTrain<-createDataPartition(" predict(rf_model,test) "pml-training.csv"
+# Google -> "Using devices such as Jawbone Up, Nike FuelBand, and Fitbit" caret
+# Google -> https://www.google.com/?gws_rd=ssl#q=%22B+A+B+A+A+E+D+B+A+A+B+C+B+A+E+E+A+B+B+B%22
+# https://yoke2.github.io/PMLCourseProject/pmlreport.html
+# https://github.com/tobigithub/caret-machine-learning
+# Tobias Kind (2015)
+
 
 library(caret)
 require(ggplot2)
