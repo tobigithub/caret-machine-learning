@@ -35,4 +35,10 @@ results
 # stop cluster
 stopCluster(cl); registerDoSEQ();
 
+#               boot632   LGOCV     LOOCV     cv        repeatedcv boot     
+# TrainRMSE     0.3794002 0.4959378 0.4997026 0.4933169 0.4930747  0.5617455
+# TrainRsquared 0.6743715 0.6067721 0.5875271 0.603017  0.6032699  0.4883528
+# method        "cubist"  "cubist"  "cubist"  "cubist"  "cubist"   "cubist" 
+
+
 ### END
