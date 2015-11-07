@@ -40,4 +40,26 @@
                     fit1 <- train(bbbDescr, logBBB, trControl=tc, method="knn") }); all 
   all[4, ]
   
+#                boot632      LGOCV        LOOCV        cv           repeatedcv   boot        
+# method       "knn"        "knn"        "knn"        "knn"        "knn"        "knn"       
+# modelInfo    List,13      List,13      List,13      List,13      List,13      List,13     
+# modelType    "Regression" "Regression" "Regression" "Regression" "Regression" "Regression"
+# results      List,7       List,5       List,3       List,5       List,5       List,5      
+# pred         NULL         NULL         List,4       NULL         NULL         NULL        
+# bestTune     List,1       List,1       List,1       List,1       List,1       List,1      
+# call         Expression   Expression   Expression   Expression   Expression   Expression  
+# dots         List,0       List,0       List,0       List,0       List,0       List,0      
+# metric       "RMSE"       "RMSE"       "RMSE"       "RMSE"       "RMSE"       "RMSE"      
+# control      List,26      List,26      List,26      List,26      List,26      List,26     
+# finalModel   List,7       List,7       List,7       List,7       List,7       List,7      
+# preProcess   NULL         NULL         NULL         NULL         NULL         NULL        
+# trainingData List,135     List,135     List,135     List,135     List,135     List,135    
+# resample     List,3       List,3       NULL         List,3       List,3       List,3      
+# resampledCM  NULL         NULL         NULL         NULL         NULL         NULL        
+# perfNames    Character,2  Character,2  Character,2  Character,2  Character,2  Character,2 
+# maximize     FALSE        FALSE        FALSE        FALSE        FALSE        FALSE       
+# yLimits      Numeric,2    Numeric,2    Numeric,2    Numeric,2    Numeric,2    Numeric,2   
+# times        List,3       List,3       List,3       List,3       List,3       List,3    
+
+  
   ### END
