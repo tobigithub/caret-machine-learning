@@ -1,5 +1,6 @@
-
-
+# Get all caret models for regression and classification
+# https://github.com/tobigithub/caret-machine-learning
+# Tobias Kind (2015)
 
 # -----------------------------------------------------------
 # get all caret models for regression
