@@ -96,3 +96,22 @@ datatable(df1,  options = list(
 
 ### END
 
+#-----------------------------------------------------------------------------
+# Num	Name	R^2	RMSE	time[s]	Model name
+# #1	avNNet		20.269	4.98	Model Averaged Neural Network
+# 2	bagEarth	1	0	3.8	Bagged MARS
+# 3	bagEarthGCV	1	0	2.22	Bagged MARS using gCV Pruning
+# 4	bayesglm	1	0	1.11	Bayesian Generalized Linear Model
+# 5	bdk	0.81	2.602	1.49	Self-Organizing Map
+# 6	blackboost	0.878	2.37	3.9	Boosted Tree
+# 7	Boruta	0.965	1.317	25.79	Random Forest with Additional Feature Selection
+# 8	brnn	0.999	0.215	0.95	Bayesian Regularized Neural Networks
+# 9	BstLm	0.826	2.661	2.89	Boosted Linear Model
+# 10	bstTree	0.912	1.766	17.98	Boosted Tree
+...
+# 83	xgbTree	0.983	0.679	3.970	eXtreme Gradient Boosting
+# 84	xyf	0.834	2.609	1.560	Self-Organizing Maps
+#-----------------------------------------------------------------------------
+
+
+
