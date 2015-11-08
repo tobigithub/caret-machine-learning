@@ -1,5 +1,8 @@
-Source: http://www.inside-r.org/packages/cran/caret/docs/plotObsVsPred
-
+# Source: http://www.inside-r.org/packages/cran/caret/docs/plotObsVsPred
+# Author: Max Kuhn
+#
+# https://github.com/tobigithub/caret-machine-learning
+# Tobias Kind (2015)
 
 # load libraries and models
 require(caret)
