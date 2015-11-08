@@ -5,8 +5,10 @@
 # https://github.com/tobigithub/caret-machine-learning
 # Tobias Kind (2015)
 
-require(caret);  data(cars);
- 
+# load caret and DT the cars data set
+require(caret); require(DT);  data(cars);
+
+# fill variable m with the working models  
 m <- c("avNNet", "bagEarth", "bagEarthGCV", 
 "bayesglm", "bdk", "blackboost", "Boruta", "brnn", "BstLm" , 
 "bstTree", "cforest", "ctree", "ctree2", "cubist", "DENFIS", 
@@ -43,6 +45,7 @@ t2 <- lapply(m,function(i)
 	}
 )
 
+# use lapply to print the results
 r2 <- lapply(1:length(t2), function(i) 
 		{cat(sprintf("%-20s",(m[i])));
 		cat(round(t2[[i]]$results$Rsquared[which.min(t2[[i]]$results$RMSE)],4),"\t");
@@ -51,6 +54,7 @@ r2 <- lapply(1:length(t2), function(i)
 		}
 )
 
+# stop the parallel processing and register sequential front-end
 stopCluster(cl); registerDoSEQ();
 
 # preallocate data types
@@ -76,7 +80,7 @@ df1 <- data.frame(x1,x2,x3,x4,x5, stringsAsFactors=FALSE)
 # print all results to R-GUI
 df1
 
-# call web output with correct column names
+# call web browser output with sortable column names
 datatable(df1,  options = list(
 		columnDefs = list(list(className = 'dt-left', targets = c(0,1,2,3,4,5))),
 		pageLength = MAX,
