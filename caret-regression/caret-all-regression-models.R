@@ -8,7 +8,10 @@
 # load caret and DT the cars data set
 require(caret); require(DT);  data(cars);
 
-# fill variable m with the working models  
+# get all model names just as example
+m <- unique(modelLookup()[modelLookup()$forReg,c(1)])
+
+# fill variable m with the fast working models  
 m <- c("avNNet", "bagEarth", "bagEarthGCV", 
 "bayesglm", "bdk", "blackboost", "Boruta", "brnn", "BstLm" , 
 "bstTree", "cforest", "ctree", "ctree2", "cubist", "DENFIS", 
