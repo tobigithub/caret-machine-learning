@@ -117,5 +117,7 @@ datatable(df1,  options = list(
 # 84	xyf	0.834	2.609	1.560	Self-Organizing Maps
 #-----------------------------------------------------------------------------
 
+### total time 385.14 [s] or 6.4 min with 4c/16t@4.2 GHz
+
 
 
