@@ -1,3 +1,5 @@
+# Regression analysis and visualization
+# Plot observed vs predicted values for training and test set from  CART and PLS
 # Source: http://www.inside-r.org/packages/cran/caret/docs/plotObsVsPred
 # Author: Max Kuhn
 #
