@@ -10,6 +10,8 @@ data(iris)
 # get the dimension of the dataset
 dim(iris)
 ## [1] 150   5
+length(iris)
+## [1] 5
 # get the class name (here data frame)  to choose correct operators
 class(iris)
 ## [1] "data.frame"
