@@ -2,6 +2,9 @@
 # https://github.com/tobigithub/caret-machine-learning
 # Tobias Kind (2015)
 
+# show all available data sets installed
+library(caret); library(datasets); library(AppliedPredictiveModeling); library(mlbench); data();
+
 # load the dataset
 data(iris)
 # get the dimension of the dataset
