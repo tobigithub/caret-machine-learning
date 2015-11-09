@@ -1,0 +1,32 @@
+Num,Data set,library,Reg/Class,Y-target,X-input,Dimension,Design
+1,data(iris),R,Class,Species,remaining data,150 x 5,multi class
+2,data(trees),R,NA,NA,remaining data,31x 3,multi class
+3,data(Glass),R,Class,Type,remaining data,214 x 10,multi class
+4,data(cox2),caret,Class,cox2Class ,"cox2Descr,cox2IC50",462x 255,Two class
+5,data(oil),caret,Class,oilType,fattyAcids,96 x 7,multi class
+6,data(dhfr),caret,Reg,Y,remaining data,325 x 229,multi param
+7,data(GermanCredit),caret,Reg/Class,Class,remaining data,1000 x  62,multi param
+8,data(BostonHousing),mlbench,Reg,medv,remaining data,506x14,multi param
+9,data(BloodBrain),caret,Reg,logBBB ,bbbDescr ,208 x 134,multi param
+10,data(mdrr),caret,Class,mdrrClass,mdrrDescr,528 x 342,Two class
+11,data(Satellite) ,mlbench,Class,classes,remaining data,6435 x  37,multi class
+12,data(cars),caret,Reg/Class,any,any,804x15,mixed
+13,data(dhfr) ,caret,Class,Y,remaining data,325x229,Two class
+14,data(pottery) ,caret,Class,potteryClass ,pottery ,NA,Two class
+15,data(segmentationData) ,caret,Class,Class,remaining data,2019  x  61,Two class
+16,data(tecator) ,caret,Reg,endpoints ,absorp ,215x 100,multi param
+17,data(abalone) ,APM,Class,Type,remaining data,4177  x  9,multi class
+18,data(AlzheimerDisease) ,APM,Class,diagnosis ,predictors ,333 x 130,Two class
+19,data(ChemicalManufacturingProcess) ,APM,Reg,Yield,remaining data,176 x  58,multi param
+20,data(concrete) ,APM,Reg,CompressiveStrength ,remaining data,1030 x   9,multi param
+21,data(FuelEconomy) ,APM,Reg/Class,,,3 sets,multi param
+22,data(hepatic) ,APM,Class,injury ,remaining data,2 sets,multi param
+23,data(solubility) ,APM,Reg,solTestY ,,1267 x 228,multi param
+24,data(permeability) ,APM,Reg,permeability ,fingerprints ,165 x 1107,multi param
+25,data(schedulingData) ,APM,Class,Class,remaining data,4331x8,multi class
+26,data(segmentationOriginal) ,APM,Class,Class,remaining data,2019  x 119,
+27,data(twoClassData) ,APM,Class,classes ,predictors ,208 x  2,Two class
+28,data(BreastCancer) ,mlbench,Class,Class ,remaining data,699 x 11,Two class
+29,data(PimaIndiansDiabetes) ,mlbench,Class,diabetes ,remaining data,768 x  9,Two class
+30,data(Sonar) ,mlbench,Class,Class ,remaining data,208x61,Two class
+31,Human Activity Recognition (HAR) ,puc-rio.br,Class,“class”,remaining data,165634 x 21 ,multi class
