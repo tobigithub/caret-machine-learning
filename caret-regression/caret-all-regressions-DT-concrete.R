@@ -33,7 +33,7 @@ suppressPackageStartupMessages(ll <-lapply(m, require, character.only = TRUE))
 y <- concrete$CompressiveStrength; x <- concrete[, 1:8];
 
 # register parallel front-end
-library(doParallel); cl <- makeCluster(detectCores()/2); registerDoParallel(cl)
+library(doParallel); cl <- makeCluster(detectCores()); registerDoParallel(cl)
 
 # use lapply/loop to run everything
 t2 <- lapply(m,function(i) 
