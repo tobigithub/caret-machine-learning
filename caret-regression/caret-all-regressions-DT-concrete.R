@@ -1,6 +1,9 @@
+# All working and fast caret regression models applied to data(concrete)
+# The regression output from  fast (working) regression models is
+# exported to a sortable table in a web browser using the DT library
+# https://github.com/tobigithub/caret-machine-learning
+# Tobias Kind (2015)
 
-
-# all working and fast caret regression models applied to data(concrete)
 require(caret); require(DT); require(AppliedPredictiveModeling);
 data(concrete);
  
