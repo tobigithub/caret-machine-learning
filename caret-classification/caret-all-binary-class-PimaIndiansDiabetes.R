@@ -110,7 +110,7 @@ datatable(df1,  options = list(
 		pageLength = MAX,
   		order = list(list(2, 'desc'))),
 		colnames = c('Num', 'Name', 'Accuracy', 'Kappa', 'time [s]', 'Model name'),
-	        caption = paste('Regression results from caret models',Sys.time()),
+	        caption = paste('Classification results from caret models',Sys.time()),
 	        class = 'cell-border stripe')  %>% 	       
 	        formatRound('x2', 3) %>%  
 	        formatRound('x3', 3) %>%
