@@ -1,6 +1,10 @@
 # Use of all 160 caret models for binary classification and diabetes set
+# The  output from  fast (working) binary classification models is
+# exported to a sortable table in a web browser using the DT library
+# https://github.com/tobigithub/caret-machine-learning
+# Tobias Kind (2015)
 
-# use mlbench library
+# use mlbench, caret and DT library
 require(mlbench)
 require(caret)
 require(DT)
