@@ -1,0 +1,117 @@
+Num,Name,Accuracy,Kappa,time [s],Model name
+73,parRF,0.85,0.65,7.99,Parallel Random Forest
+71,ORFridge,0.85,0.66,1571.73,Oblique Random Forest
+12,Boruta,0.85,0.65,184.67,Random Forest with Additional Feature Selection
+85,rf,0.85,0.65,7.02,Random Forest
+69,ORFlog,0.85,0.66,844.62,Oblique Random Forest
+83,ranger,0.85,0.65,10.39,Random Forest
+29,extraTrees,0.84,0.65,19.02,Random Forest by Randomization
+70,ORFpls,0.84,0.65,433.39,Oblique Random Forest
+95,RRFglobal,0.84,0.64,7.90,Regularized Random Forest
+112,treebag,0.84,0.63,2.48,Bagged CART
+115,xgbTree,0.84,0.63,6.54,eXtreme Gradient Boosting
+114,xgbLinear,0.83,0.63,78.31,eXtreme Gradient Boosting
+94,RRF,0.82,0.61,15.21,Regularized Random Forest
+84,rbfDDA,0.82,0.60,19.64,Radial Basis Function Network
+90,rotationForestCp,0.80,0.55,20.32,Rotation Forest
+81,protoclass,0.80,0.55,8.70,Greedy Prototype Selection
+38,gbm,0.80,0.54,2.15,Stochastic Gradient Boosting
+89,rotationForest,0.79,0.52,14.35,Rotation Forest
+67,oblique.tree,0.79,0.54,132.21,Oblique Trees
+1,ada,0.79,0.53,52.92,Boosted Classification Trees
+16,C5.0,0.79,0.52,5.16,C5.0
+17,C5.0Cost,0.79,0.52,9.46,Cost-Sensitive C5.0
+20,cforest,0.79,0.51,62.23,Conditional Inference Random Forest
+36,gaussprPoly,0.79,0.51,704.83,Gaussian Process with Polynomial Kernel
+37,gaussprRadial,0.78,0.50,60.95,Gaussian Process with Radial Basis Function Kernel
+34,gamLoess,0.78,0.50,1.85,Generalized Additive Model using LOESS
+8,bartMachine,0.78,0.50,520.26,Bayesian Additive Regression Trees
+109,svmRadial,0.78,0.49,4.53,Support Vector Machines with Radial Basis Function Kernel
+111,svmRadialWeights,0.78,0.49,8.53,Support Vector Machines with Class Weights
+110,svmRadialCost,0.78,0.49,8.97,Support Vector Machines with Radial Basis Function Kernel
+108,svmPoly,0.78,0.48,26.24,Support Vector Machines with Polynomial Kernel
+30,fda,0.78,0.49,1.23,Flexible Discriminant Analysis
+26,earth,0.78,0.49,1.51,Multivariate Adaptive Regression Spline
+39,gcvEarth,0.78,0.49,1.16,Multivariate Adaptive Regression Splines
+32,FRBCS.W,0.78,0.46,1404.60,Fuzzy Rules with Weight Factor
+25,dwdRadial,0.78,0.37,1680.71,Distance Weighted Discrimination with Radial Basis Function Kernel
+76,pcaNNet,0.78,0.50,7.68,Neural Networks with Feature Extraction
+50,kknn,0.78,0.50,2.72,k-Nearest Neighbors
+33,gamboost,0.78,0.48,4.07,Boosted Generalized Additive Model
+4,bagEarth,0.77,0.48,30.19,Bagged MARS
+56,loclda,0.77,0.48,10.68,Localized Linear Discriminant Analysis
+42,glmnet,0.77,0.48,1.42,glmnet
+2,amdai,0.77,0.48,1.78,Adaptive Mixture Discriminant Analysis
+5,bagEarthGCV,0.77,0.48,12.59,Bagged MARS using gCV Pruning
+52,lda,0.77,0.48,0.80,Linear Discriminant Analysis
+53,lda2,0.77,0.48,1.22,Linear Discriminant Analysis
+77,pda,0.77,0.48,1.84,Penalized Discriminant Analysis
+9,bayesglm,0.77,0.48,1.45,Bayesian Generalized Linear Model
+35,gamSpline,0.77,0.47,2.46,Generalized Additive Model using Splines
+40,glm,0.77,0.47,0.76,Generalized Linear Model
+64,multinom,0.77,0.47,0.96,Penalized Multinomial Regression
+78,plr,0.77,0.47,16.66,Penalized Logistic Regression
+80,plsRglm,0.77,0.47,17.99,Partial Least Squares Generalized Linear Models 
+86,rfRules,0.77,0.48,667.89,Random Forest Rule-Based Model
+43,glmStepAIC,0.77,0.47,1.52,Generalized Linear Model with Stepwise Feature Selection
+6,bagFDA,0.77,0.48,23.77,Bagged Flexible Discriminant Analysis
+103,spls,0.77,0.47,8.93,Sparse Partial Least Squares
+60,mda,0.77,0.47,5.29,Mixture Discriminant Analysis
+99,sdwd,0.77,0.46,2.00,Sparse Distance Weighted Discrimination
+41,glmboost,0.77,0.47,1.29,Boosted Generalized Linear Model
+7,bagFDAGCV,0.77,0.47,9.85,Bagged FDA using gCV Pruning
+107,svmLinear2,0.77,0.47,1.68,Support Vector Machines with Linear Kernel
+106,svmLinear,0.77,0.46,1.09,Support Vector Machines with Linear Kernel
+61,Mlda,0.77,0.46,1.62,Maximum Uncertainty Linear Discriminant Analysis
+87,rknn,0.77,0.47,52.34,Random k-Nearest Neighbors
+22,ctree,0.77,0.48,1.37,Conditional Inference Tree
+58,lssvmRadial,0.77,0.46,24.41,Least Squares Support Vector Machine with Radial Basis Function Kernel
+92,rpart2,0.77,0.47,0.89,CART
+65,nb,0.76,0.47,4.65,Naive Bayes
+98,sda,0.76,0.45,2.38,Shrinkage Discriminant Analysis
+11,blackboost,0.76,0.45,6.76,Boosted Tree
+31,FRBCS.CHI,0.76,0.48,1414.04,Fuzzy Rules Using Chi's Method
+49,kernelpls,0.76,0.43,1.07,Partial Least Squares
+79,pls,0.76,0.43,1.12,Partial Least Squares
+100,simpls,0.76,0.43,0.97,Partial Least Squares
+113,widekernelpls,0.76,0.43,1.12,Partial Least Squares
+44,gpls,0.76,0.43,19.06,Generalized Partial Least Squares
+28,evtree,0.76,0.45,120.54,Tree Models from Genetic Algorithms
+47,J48,0.76,0.46,3.20,C4.5-like Trees
+19,C5.0Tree,0.75,0.46,0.84,Single C5.0 Tree
+15,bstTree,0.75,0.43,41.71,Boosted Tree
+48,JRip,0.75,0.44,4.12,Rule-Based Classifier
+96,rrlda,0.75,0.47,50.46,Robust Regularized Linear Discriminant Analysis
+88,rocc,0.75,0.41,1.85,ROC-Based Classifier
+45,hda,0.75,0.42,31.42,Heteroscedastic Discriminant Analysis
+18,C5.0Rules,0.75,0.44,0.86,Single C5.0 Ruleset
+3,avNNet,0.75,0.40,12.41,Model Averaged Neural Network
+91,rpart,0.75,0.42,0.96,CART
+57,LogitBoost,0.75,0.43,1.54,Boosted Logistic Regression
+23,ctree2,0.75,0.41,1.06,Conditional Inference Tree
+74,PART,0.75,0.44,15.50,Rule-Based Classifier
+82,qda,0.75,0.42,0.94,Quadratic Discriminant Analysis
+14,bstSm,0.75,0.38,21.47,Boosted Smoothing Spline
+105,stepQDA,0.74,0.39,9.31,Quadratic Discriminant Analysis with Stepwise Feature Selection
+104,stepLDA,0.74,0.39,9.78,Linear Discriminant Analysis with Stepwise Feature Selection
+46,hdda,0.74,0.42,1.31,High Dimensional Discriminant Analysis
+55,LMT,0.74,0.42,6.84,Logistic Model Trees
+51,knn,0.74,0.41,0.85,k-Nearest Neighbors
+54,Linda,0.74,0.42,3.09,Robust Linear Discriminant Analysis
+93,rpartCost,0.73,0.32,0.99,Cost-Sensitive CART
+72,pam,0.73,0.32,5.80,Nearest Shrunken Centroids
+75,partDSA,0.73,0.38,15.65,partDSA
+66,nnet,0.72,0.36,3.12,Neural Network
+116,xyf,0.72,0.34,5.68,Self-Organizing Maps
+10,bdk,0.71,0.30,5.35,Self-Organizing Map
+68,OneR,0.71,0.31,1.07,Single Rule Classification
+59,lvq,0.69,0.26,1.44,Learning Vector Quantization
+21,CSimca,0.67,0.38,3.99,SIMCA
+101,slda,0.67,0.14,1.64,Stabilized Linear Discriminant Analysis
+27,elm,0.67,0.16,2.14,Extreme Learning Machine
+24,dnn,0.65,0.00,12.42,Stacked AutoEncoder Deep Neural Network
+63,mlpWeightDecay,0.65,0.00,43.11,Multi-Layer Perceptron
+62,mlp,0.65,0.00,16.36,Multi-Layer Perceptron
+97,RSimca,0.64,0.34,4.99,Robust SIMCA
+13,BstLm,0.64,0.00,12.03,Boosted Linear Model
+102,sparseLDA,0.35,0.00,50.07,Sparse Linear Discriminant Analysis
