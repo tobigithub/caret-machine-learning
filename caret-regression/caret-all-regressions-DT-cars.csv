@@ -1,0 +1,85 @@
+Num,Name,R^2,RMSE,time [s],Model name
+2,bagEarth,1,0,2.37,Bagged MARS
+3,bagEarthGCV,1,0,1.58,Bagged MARS using gCV Pruning
+4,bayesglm,1,0,1.29,Bayesian Generalized Linear Model
+17,earth,1,0,0.79,Multivariate Adaptive Regression Spline
+19,enet,1,0,1.06,Elasticnet
+23,gamLoess,1,0,1.48,Generalized Additive Model using LOESS
+27,gcvEarth,1,0,0.8,Multivariate Adaptive Regression Splines
+28,glm,1,0,1.04,Generalized Linear Model
+29,glmboost,1,0,0.86,Boosted Generalized Linear Model
+30,glmnet,1,0.176,1.06,glmnet
+36,lars,1,0,0.81,Least Angle Regression
+37,lasso,1,0.604,0.77,The lasso
+38,leapBackward,1,0,0.9,Linear Regression with Backwards Selection
+39,leapForward,1,0,0.78,Linear Regression with Forward Selection
+40,leapSeq,1,0,0.81,Linear Regression with Stepwise Selection
+41,lm,1,0,0.77,Linear Regression
+42,M5,1,0,3.16,Model Tree
+43,M5Rules,1,0,1.53,Model Rules
+58,ridge,1,0,0.89,Ridge Regression
+61,rlm,1,0,0.78,Robust Linear Model
+64,rqlasso,1,0,1.65,Quantile Regression with LASSO penalty
+65,rqnc,1,0,0.97,Non-Convex Penalized Quantile Regression
+14,cubist,1,0,1.06,Cubist
+20,enpls,1,0,18.19,Ensemble Partial Least Squares Regression
+49,penalized,1,0.025,1.53,Penalized Linear Regression
+68,rvmPoly,1,0.025,1.3,Relevance Vector Machines with Polynomial Kernel
+32,kernelpls,0.999,0.156,0.89,Partial Least Squares
+50,pls,0.999,0.156,0.78,Partial Least Squares
+80,widekernelpls,0.999,0.156,0.84,Partial Least Squares
+71,simpls,0.999,0.156,0.83,Partial Least Squares
+48,pcr,0.999,0.177,0.81,Principal Component Analysis
+8,brnn,0.999,0.237,0.95,Bayesian Regularized Neural Networks
+72,spls,0.998,0.185,1.23,Sparse Partial Least Squares
+73,superpc,0.998,19.931,0.97,Supervised Principal Component Analysis
+52,ppr,0.998,0.189,0.81,Projection Pursuit Regression
+51,plsRglm,0.995,0.352,3.4,Partial Least Squares Generalized Linear Models
+74,svmLinear,0.993,0.522,0.82,Support Vector Machines with Linear Kernel
+75,svmLinear2,0.993,0.522,0.85,Support Vector Machines with Linear Kernel
+24,gaussprLinear,0.993,0.523,2.08,Gaussian Process
+22,extraTrees,0.977,0.944,2.6,Random Forest by Randomization
+76,svmPoly,0.976,0.901,1.9,Support Vector Machines with Polynomial Kernel
+18,elm,0.973,0.914,1.16,Extreme Learning Machine
+54,ranger,0.971,1.202,1.13,Random Forest
+35,krlsRadial,0.971,1.102,3.07,Radial Basis Function Kernel Regularized Least Squares
+7,Boruta,0.963,1.225,10.79,Random Forest with Additional Feature Selection
+55,rf,0.961,1.246,0.92,Random Forest
+66,RRF,0.96,1.254,1.17,Regularized Random Forest
+67,RRFglobal,0.959,1.263,1.23,Regularized Random Forest
+25,gaussprPoly,0.958,1.172,1.06,Gaussian Process with Polynomial Kernel
+53,qrf,0.932,1.667,1.11,Quantile Random Forest
+77,svmRadial,0.929,1.834,0.87,Support Vector Machines with Radial Basis Function Kernel
+78,svmRadialCost,0.924,1.837,1,Support Vector Machines with Radial Basis Function Kernel
+10,bstTree,0.911,1.748,7.24,Boosted Tree
+60,rknnBel,0.91,2.016,15.44,Random k-Nearest Neighbors with Feature Selection
+59,rknn,0.909,2.263,4.62,Random k-Nearest Neighbors
+70,SBC,0.905,1.609,1.61,Subtractive Clustering and Fuzzy c-Means Rules
+31,icr,0.902,1.994,1.09,Independent Component Regression
+26,gaussprRadial,0.896,2.411,0.84,Gaussian Process with Radial Basis Function Kernel
+6,blackboost,0.886,2.193,4.37,Boosted Tree
+33,kknn,0.883,1.819,1.05,k-Nearest Neighbors
+81,WM,0.869,2.134,3.1,Wang and Mendel Fuzzy Rules
+79,treebag,0.862,2.613,1.58,Bagged CART
+84,xyf,0.844,2.434,1.84,Self-Organizing Maps
+11,cforest,0.843,2.691,0.98,Conditional Inference Random Forest
+5,bdk,0.837,2.414,1.69,Self-Organizing Map
+9,BstLm,0.826,2.651,1.86,Boosted Linear Model
+34,knn,0.812,2.795,0.78,k-Nearest Neighbors
+21,evtree,0.789,2.796,2.98,Tree Models from Genetic Algorithms
+12,ctree,0.77,2.982,0.83,Conditional Inference Tree
+13,ctree2,0.77,2.982,0.83,Conditional Inference Tree
+46,partDSA,0.749,3.089,3.19,partDSA
+62,rpart,0.744,3.029,1.22,CART
+63,rpart2,0.744,3.029,0.84,CART
+56,rfRules,0.512,4.943,32.53,Random Forest Rule-Based Model
+69,rvmRadial,0.396,12.565,0.9,Relevance Vector Machines with Radial Basis Function Kernel
+44,mlpWeightDecay,0.338,6.218,2.53,Multi-Layer Perceptron
+15,DENFIS,0.318,9.409,10.34,Dynamic Evolving Neural-Fuzzy Inference System
+57,rbfDDA,0.212,20.857,1.81,Radial Basis Function Network
+1,avNNet,,19.972,7.31,Model Averaged Neural Network
+16,dnn,,6.172,1.64,Stacked AutoEncoder Deep Neural Network
+45,neuralnet,,5.993,20.98,Neural Network
+47,pcaNNet,,19.972,1.17,Neural Networks with Feature Extraction
+82,xgbLinear,,6.045,790.15,eXtreme Gradient Boosting
+83,xgbTree,,6.045,49.58,eXtreme Gradient Boosting
