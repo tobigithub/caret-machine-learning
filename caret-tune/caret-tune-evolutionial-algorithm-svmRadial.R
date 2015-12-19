@@ -1,7 +1,7 @@
 # Tune "svmRadial" in caret with evolutional algorithm using DEoptim.
 # Author: Rafael Ladeira  https://github.com/rladeira
 # Source: https://github.com/topepo/caret/issues/321
-# 
+# Only runs on UNIX/Elcapitan due to library(doMC)
 # https://github.com/tobigithub/caret-machine-learning
 # Tobias Kind (2015)
 
