@@ -1,4 +1,9 @@
-
+# Tune "svmRadial" in caret with evolutional algorithm using DEoptim.
+# Author: Rafael Ladeira  https://github.com/rladeira
+# Source: https://github.com/topepo/caret/issues/321
+# 
+# https://github.com/tobigithub/caret-machine-learning
+# Tobias Kind (2015)
 
 library(caret)
 library(parallel)
@@ -44,8 +49,8 @@ svm_model <- train(y ~ ., data = training_data,
 
 predictions <- predict(svm_model, testing_data)
 
-cat("Validation RMSE:", getTrainPerf(svm_model)[, "TrainRMSE"], "\n")
+cat("Train RMSE:", getTrainPerf(svm_model)[, "TrainRMSE"], "\n")
 cat("Test RMSE:", RMSE(predictions, testing_data$y))
 
-## Validation RMSE: 5.733844 
+## Train RMSE: 5.733844 
 ## Test RMSE: 5.758587
