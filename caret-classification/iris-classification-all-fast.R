@@ -3,6 +3,10 @@
 # The  output from  fast (working) binary classification models is
 # exported to a sortable table in a web browser using the DT library
 # https://github.com/tobigithub/caret-machine-learning
+#
+# Warning: requires DeLuxe installation of all caret dependencies.
+# https://github.com/tobigithub/caret-machine-learning/tree/master/caret-setup
+#
 # R3.3.1 and caret 6.0-70
 # Tobias Kind (2016)
 
