@@ -5,6 +5,7 @@
 # https://github.com/tobigithub/caret-machine-learning
 #
 # Warning: requires DeLuxe installation of all caret dependencies.
+# Warning: invokes DLL hell under Windows "maximal number of DLLs reached..."
 # https://github.com/tobigithub/caret-machine-learning/tree/master/caret-setup
 #
 # R3.3.1 and caret 6.0-70
