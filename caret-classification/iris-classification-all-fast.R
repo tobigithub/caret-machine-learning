@@ -26,7 +26,7 @@ length(m); m;
 
 # slow classification models ("rbf" crashes; "dwdLinear", "ownn", "snn" have issues)
 # all others may have just failed and are not listed here, models may be very accurate
-removeModels <- c("AdaBoost.M1","pda2","dwdRadial","rbf","dwdLinear", "dwdPoly",
+removeModels <- c("AdaBag","AdaBoost.M1","pda2","dwdRadial","rbf","dwdLinear", "dwdPoly",
 "gaussprLinear","gaussprPoly","rFerns","sddaLDA", "smda", "sddaQDA", "xgbLinear",
 "AdaBag","FH.GBML","ORFsvm","ownn","vbmpRadial","SLAVE","ORFlog","GFS.GCCL","ORFpls",
 "snn", "bagEarth","ORFridge","rmda","awnb", "awtan", "manb", "nbDiscrete", "nbSearch",
