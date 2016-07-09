@@ -30,7 +30,8 @@ removeModels <- c("AdaBag","AdaBoost.M1","pda2","dwdRadial","rbf","dwdLinear", "
 "gaussprLinear","gaussprPoly","rFerns","sddaLDA", "smda", "sddaQDA", "xgbLinear",
 "AdaBag","FH.GBML","ORFsvm","ownn","vbmpRadial","SLAVE","ORFlog","GFS.GCCL","ORFpls",
 "snn", "bagEarth","ORFridge","rmda","awnb", "awtan", "manb", "nbDiscrete", "nbSearch",
-"ordinalNet", "blackboost","tan","tanSearch","randomGLM","Rborist")
+"ordinalNet", "blackboost","tan","tanSearch","randomGLM","Rborist",
+"FRBCS.W", "FRBCS.CHI","evtree","bstTree","bagEarthGCV","bagFDA","rrlda")
 
 #remove all slow and failed models from model list
 m <- m[!m %in% removeModels]
