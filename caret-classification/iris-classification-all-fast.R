@@ -3,7 +3,8 @@
 # The  output from  fast (working) binary classification models is
 # exported to a sortable table in a web browser using the DT library
 # https://github.com/tobigithub/caret-machine-learning
-# Tobias Kind (2015)
+# R3.3.1 and caret 6.0-70
+# Tobias Kind (2016)
 
 # use mlbench, caret and DT library
 require(mlbench)
