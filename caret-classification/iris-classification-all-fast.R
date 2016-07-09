@@ -32,6 +32,11 @@ removeModels <- c("AdaBoost.M1","pda2","dwdRadial","rbf","dwdLinear", "dwdPoly",
 "snn", "bagEarth","ORFridge","rmda","awnb", "awtan", "manb", "nbDiscrete", "nbSearch",
 "ordinalNet", "blackboost","tan","tanSearch","randomGLM","Rborist")
 
+# not multiclass
+# Something is wrong; all the Accuracy metric values are missing:
+removeModels <- c("ada","adaboost","bag","bartMachine","binda","C5.0Cost","chaid",
+"deepboost","gamboost","glm","glmboost","glmStepAIC")
+
 #remove all slow and failed models from model list
 m <- m[!m %in% removeModels]
 
