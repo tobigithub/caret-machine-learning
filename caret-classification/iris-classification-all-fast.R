@@ -1,4 +1,4 @@
-# Use of all 160 caret models for multi-class classification and iris set
+# Use of a selection of "fast" of all 160 caret models for multi-class classification and iris set
 # A number of slow and broken models are excluded, this may change with each release
 # The  output from  fast (working) binary classification models is
 # exported to a sortable table in a web browser using the DT library
