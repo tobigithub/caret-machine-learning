@@ -138,8 +138,4 @@ datatable(df1,  options = list(
 		    backgroundPosition = 'center'
 )
 
-# print confusion matrix example
-caret::confusionMatrix(t2[[1]])
-
-
 ### END
