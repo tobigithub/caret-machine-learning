@@ -121,7 +121,7 @@ df1
 # ggplot(t2[[1]])
 
 # call web output with correct column names
-datatable(df1,  options = list(
+DT::datatable(df1,  options = list(
 		columnDefs = list(list(className = 'dt-left', targets = c(0,1,2,3,4,5))),
 		pageLength = MAX,
   		order = list(list(2, 'desc'))),
