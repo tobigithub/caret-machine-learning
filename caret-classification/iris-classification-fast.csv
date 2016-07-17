@@ -59,7 +59,7 @@ Num,Name,Accuracy,Kappa,time [s],Model name
 58,partDSA,0.936,0.903,4.950,partDSA
 57,PART,0.934,0.901,0.840,Rule-Based Classifier
 49,mlpWeightDecay,0.933,0.899,7.470,Multi-Layer Perceptron
-50,mlpWeightDecayML,0.933,0.899,7.770,Multi-Layer Perceptron, multiple layers
+50,mlpWeightDecayML,0.933,0.899,7.770,Multi-Layer Perceptron (multiple layers)
 11,C5.0Tree,0.933,0.899,0.550,Single C5.0 Tree
 10,C5.0Rules,0.932,0.898,0.530,Single C5.0 Ruleset
 32,J48,0.932,0.897,2.940,C4.5-like Trees
