@@ -3,7 +3,8 @@
 # The regression output from 85 fast (working) regression models is
 # exported to a sortable table in a web browser using the DT library
 # https://github.com/tobigithub/caret-machine-learning
-# Tobias Kind (2015)
+# Tobias Kind (2016)
+# Works for  caret_6.0-70   and R version 3.3.1 
 
 # load caret and DT the cars data set
 require(caret); require(DT);  data(cars);
@@ -15,7 +16,7 @@ m <- unique(modelLookup()[modelLookup()$forReg,c(1)])
 m <- c("avNNet", "bagEarth", "bagEarthGCV", 
 "bayesglm", "bdk", "blackboost", "Boruta", "brnn", "BstLm" , 
 "bstTree", "cforest", "ctree", "ctree2", "cubist", "DENFIS", 
-"dnn", "earth", "elm", "enet", "enpls", "evtree", 
+"dnn", "earth", "elm", "enet",   "evtree", 
 "extraTrees",  "gamLoess",  "gaussprLinear", "gaussprPoly", "gaussprRadial", 
 "gcvEarth","glm", "glmboost", "glmnet", "icr", "kernelpls", 
 "kknn", "knn",  "krlsRadial", "lars" , "lasso", 
@@ -23,7 +24,7 @@ m <- c("avNNet", "bagEarth", "bagEarthGCV",
 "mlpWeightDecay", "neuralnet" , "partDSA", 
 "pcaNNet", "pcr", "penalized", "pls", "plsRglm", "ppr", 
 "qrf" , "ranger",  "rf", "rfRules", "rbfDDA",
-"ridge", "rknn", "rknnBel", "rlm", "rpart", "rpart2", "rqlasso", 
+"ridge", "rlm", "rpart", "rpart2", "rqlasso", 
 "rqnc", "RRF", "RRFglobal",  "rvmPoly", "rvmRadial", 
 "SBC", "simpls", "spls", "superpc" , 
 "svmLinear", "svmLinear2", "svmPoly", "svmRadial", "svmRadialCost", 
