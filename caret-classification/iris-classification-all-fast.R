@@ -57,6 +57,9 @@ Y = iris$Species
 # register parallel front-end
 library(doParallel); cl <- makeCluster(detectCores()); registerDoParallel(cl)
 
+# this is required otherwise the first method is benchmarked wrong
+warmup <-train(y=Y, x=X, "rf", trControl = trainControl(method = "boot632"))
+
 # this setup actually calls the caret::train function, in order to provide
 # minimal error handling this type of construct is needed.
 trainCall <- function(i) 
@@ -124,7 +127,7 @@ df1
 DT::datatable(df1,  options = list(
 		columnDefs = list(list(className = 'dt-left', targets = c(0,1,2,3,4,5))),
 		pageLength = MAX,
-  		order = list(list(2, 'desc'))),
+  		order = list(list(3, 'desc'))), # sort according to kappa value
 		colnames = c('Num', 'Name', 'Accuracy', 'Kappa', 'time [s]', 'Model name'),
 	        caption = paste('Classification results from caret models',Sys.time()),
 	        class = 'cell-border stripe')  %>% 	       
