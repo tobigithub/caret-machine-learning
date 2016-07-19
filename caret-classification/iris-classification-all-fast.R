@@ -11,7 +11,7 @@
 # R3.3.1 and caret 6.0-70
 # Tobias Kind (2016)
 
-# use mlbench, caret and DT library
+# use mlbench, caret and DT library, please make sure they are already installed
 require(mlbench)
 require(caret)
 require(DT)
