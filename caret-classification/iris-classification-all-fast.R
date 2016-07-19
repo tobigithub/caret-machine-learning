@@ -2,6 +2,7 @@
 # A number of slow and broken models are excluded, this may change with each release
 # The  output from  fast (working) binary classification models is
 # exported to a sortable table in a web browser using the DT library
+# Total runtime 145 seconds on 16 core (3.1GHz) (all single ML methods <4 seconds)
 # https://github.com/tobigithub/caret-machine-learning
 #
 # Warning: requires DeLuxe installation of all caret dependencies.
