@@ -120,7 +120,7 @@ Num	Name	Accuracy	Kappa	time [s]	Model name
 28	elm	0.669	0.171	1.17	Extreme Learning Machine
 107	slda	0.671	0.143	1.39	Stabilized Linear Discriminant Analysis
 12	BstLm	0.644	0.026	2.84	Boosted Linear Model
-67	mlpWeightDecayML	0.648	0	34.63	Multi-Layer Perceptron, multiple layers
+67	mlpWeightDecayML	0.648	0	34.63	Multi-Layer Perceptron multiple layers
 66	mlpWeightDecay	0.648	0	34.26	Multi-Layer Perceptron
 25	dnn	0.648	0	5.22	Stacked AutoEncoder Deep Neural Network
 108	sparseLDA	0.354	-0.001	1.66	Sparse Linear Discriminant Analysis
