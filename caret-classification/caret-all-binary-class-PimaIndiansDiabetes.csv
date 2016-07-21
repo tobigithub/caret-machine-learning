@@ -125,5 +125,5 @@ Num	Name	Accuracy	Kappa	time [s]	Model name
 25	dnn	0.648	0	5.22	Stacked AutoEncoder Deep Neural Network
 108	sparseLDA	0.354	-0.001	1.66	Sparse Linear Discriminant Analysis
 64	mlp	0.647	-0.001	12.56	Multi-Layer Perceptron
-65	mlpML	0.647	-0.001	12.02	Multi-Layer Perceptron, with multiple layers
+65	mlpML	0.647	-0.001	12.02	Multi-Layer Perceptron with multiple layers
 
