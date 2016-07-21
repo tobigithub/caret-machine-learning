@@ -1,127 +1,129 @@
-73	ORFlog	0.844	0.656	682.000	Oblique Random Forest
-89	rf	0.849	0.656	4.240	Random Forest
-75	ORFridge	0.846	0.655	1494.080	Oblique Random Forest
-74	ORFpls	0.846	0.654	367.870	Oblique Random Forest
-77	parRF	0.847	0.652	9.520	Parallel Random Forest
-11	Boruta	0.847	0.652	132.710	Random Forest with Additional Feature Selection
-86	ranger	0.845	0.651	23.890	Random Forest
-30	extraTrees	0.846	0.648	20.360	Random Forest by Randomization
-101	RRFglobal	0.842	0.643	5.210	Regularized Random Forest
-120	treebag	0.836	0.630	2.000	Bagged CART
-125	xgbLinear	0.834	0.628	43.350	eXtreme Gradient Boosting
-126	xgbTree	0.831	0.623	13.640	eXtreme Gradient Boosting
-100	RRF	0.822	0.602	11.140	Regularized Random Forest
-24	deepboost	0.822	0.601	64.700	DeepBoost
-87	rbfDDA	0.823	0.599	15.190	Radial Basis Function Network
-94	rotationForestCp	0.804	0.555	9.820	Rotation Forest
-84	protoclass	0.796	0.553	4.700	Greedy Prototype Selection
-39	gbm	0.796	0.538	1.400	Stochastic Gradient Boosting
-71	oblique.tree	0.790	0.534	91.980	Oblique Trees
-93	rotationForest	0.793	0.527	5.330	Rotation Forest
-16	C5.0Cost	0.789	0.524	10.300	Cost-Sensitive C5.0
-15	C5.0	0.789	0.524	5.090	C5.0
-118	svmRadialSigma	0.786	0.510	3.240	Support Vector Machines with Radial Basis Function Kernel
-19	cforest	0.786	0.510	32.270	Conditional Inference Random Forest
-1	ada	0.782	0.509	34.960	Boosted Classification Trees
-37	gaussprPoly	0.785	0.506	638.570	Gaussian Process with Polynomial Kernel
-80	pcaNNet	0.775	0.503	3.370	Neural Networks with Feature Extraction
-35	gamLoess	0.779	0.500	1.390	Generalized Additive Model using LOESS
-52	kknn	0.776	0.498	2.480	k-Nearest Neighbors
-38	gaussprRadial	0.780	0.496	55.130	Gaussian Process with Radial Basis Function Kernel
-31	fda	0.778	0.493	0.950	Flexible Discriminant Analysis
-5	bagEarthGCV	0.777	0.492	10.600	Bagged MARS using gCV Pruning
-27	earth	0.777	0.491	1.190	Multivariate Adaptive Regression Spline
-40	gcvEarth	0.777	0.491	0.860	Multivariate Adaptive Regression Splines
-4	bagEarth	0.777	0.491	23.940	Bagged MARS
-119	svmRadialWeights	0.779	0.490	3.110	Support Vector Machines with Class Weights
-116	svmRadial	0.779	0.490	1.490	Support Vector Machines with Radial Basis Function Kernel
-117	svmRadialCost	0.778	0.488	1.520	Support Vector Machines with Radial Basis Function Kernel
-96	rpart1SE	0.770	0.487	0.750	CART
-14	bstTree	0.779	0.486	20.590	Boosted Tree
-7	bagFDAGCV	0.774	0.483	8.120	Bagged FDA using gCV Pruning
-34	gamboost	0.775	0.480	3.400	Boosted Generalized Additive Model
-6	bagFDA	0.773	0.479	19.830	Bagged Flexible Discriminant Analysis
-21	ctree	0.767	0.479	0.980	Conditional Inference Tree
-115	svmPoly	0.778	0.477	6.960	Support Vector Machines with Polynomial Kernel
-32	FRBCS.CHI	0.762	0.476	1254.790	Fuzzy Rules Using Chi's Method
-58	loclda	0.774	0.476	5.100	Localized Linear Discriminant Analysis
-43	glmnet	0.773	0.476	1.070	glmnet
-88	rda	0.773	0.475	3.930	Regularized Discriminant Analysis
-55	lda2	0.773	0.475	0.630	Linear Discriminant Analysis
-2	amdai	0.773	0.475	0.620	Adaptive Mixture Discriminant Analysis
-54	lda	0.773	0.475	0.620	Linear Discriminant Analysis
-48	hdrda	0.773	0.475	8.020	High-Dimensional Regularized Discriminant Analysis
-81	pda	0.773	0.475	0.830	Penalized Discriminant Analysis
-8	bayesglm	0.773	0.475	0.750	Bayesian Generalized Linear Model
-121	vglmAdjCat	0.773	0.474	2.150	Adjacent Categories Probability Model for Ordinal Data
-36	gamSpline	0.773	0.474	1.940	Generalized Additive Model using Splines
-68	multinom	0.773	0.474	0.850	Penalized Multinomial Regression
-41	glm	0.773	0.474	0.660	Generalized Linear Model
-82	plr	0.773	0.474	10.910	Penalized Logistic Regression
-44	glmStepAIC	0.772	0.474	1.190	Generalized Linear Model with Stepwise Feature Selection
-122	vglmContRatio	0.773	0.473	4.060	Continuation Ratio Model for Ordinal Data
-123	vglmCumulative	0.773	0.473	2.680	Cumulative Probability Model for Ordinal Data
-62	mda	0.773	0.473	1.310	Mixture Discriminant Analysis
-109	spls	0.773	0.471	4.130	Sparse Partial Least Squares
-91	rlda	0.740	0.471	1.670	Regularized Linear Discriminant Analysis
-42	glmboost	0.771	0.469	1.110	Boosted Generalized Linear Model
-102	rrlda	0.752	0.467	24.740	Robust Regularized Linear Discriminant Analysis
-69	nb	0.764	0.466	3.650	Naive Bayes
-114	svmLinearWeights	0.770	0.466	2.360	Linear Support Vector Machines with Class Weights
-113	svmLinear2	0.770	0.466	1.250	Support Vector Machines with Linear Kernel
-90	rfRules	0.769	0.466	475.510	Random Forest Rule-Based Model
-97	rpart2	0.766	0.465	0.810	CART
-112	svmLinear	0.769	0.464	0.920	Support Vector Machines with Linear Kernel
-33	FRBCS.W	0.776	0.463	1218.400	Fuzzy Rules with Weight Factor
-60	lssvmRadial	0.767	0.462	8.930	Least Squares Support Vector Machine with Radial Basis Function Kernel
-105	sdwd	0.771	0.462	1.340	Sparse Distance Weighted Discrimination
-63	Mlda	0.768	0.459	0.810	Maximum Uncertainty Linear Discriminant Analysis
-18	C5.0Tree	0.754	0.455	0.700	Single C5.0 Tree
-49	J48	0.756	0.455	2.930	C4.5-like Trees
-104	sda	0.764	0.454	1.110	Shrinkage Discriminant Analysis
-10	blackboost	0.763	0.448	4.980	Boosted Tree
-23	dda	0.737	0.446	3.200	Diagonal Discriminant Analysis
-50	JRip	0.753	0.442	3.620	Rule-Based Classifier
-17	C5.0Rules	0.749	0.439	0.750	Single C5.0 Ruleset
-78	PART	0.746	0.439	15.490	Rule-Based Classifier
-45	gpls	0.757	0.434	15.140	Generalized Partial Least Squares
-83	pls	0.758	0.434	0.810	Partial Least Squares
-124	widekernelpls	0.758	0.434	0.780	Partial Least Squares
-106	simpls	0.758	0.434	0.760	Partial Least Squares
-51	kernelpls	0.758	0.434	0.730	Partial Least Squares
-29	evtree	0.754	0.433	119.090	Tree Models from Genetic Algorithms
-59	LogitBoost	0.747	0.430	1.040	Boosted Logistic Regression
-46	hda	0.751	0.423	14.340	Heteroscedastic Discriminant Analysis
-99	rpartScore	0.748	0.423	14.290	CART or Ordinal Responses
-95	rpart	0.748	0.423	0.810	CART
-13	bstSm	0.758	0.421	13.740	Boosted Smoothing Spline
-85	qda	0.745	0.420	0.650	Quadratic Discriminant Analysis
-57	LMT	0.740	0.419	5.760	Logistic Model Trees
-56	Linda	0.737	0.418	1.910	Robust Linear Discriminant Analysis
-47	hdda	0.740	0.416	0.860	High Dimensional Discriminant Analysis
-92	rocc	0.751	0.412	1.530	ROC-Based Classifier
-53	knn	0.739	0.410	0.770	k-Nearest Neighbors
-22	ctree2	0.746	0.409	1.530	Conditional Inference Tree
-3	avNNet	0.746	0.394	12.670	Model Averaged Neural Network
-110	stepLDA	0.744	0.391	7.360	Linear Discriminant Analysis with Stepwise Feature Selection
-20	CSimca	0.692	0.389	1.220	SIMCA
-111	stepQDA	0.744	0.387	7.400	Quadratic Discriminant Analysis with Stepwise Feature Selection
-79	partDSA	0.725	0.377	12.290	partDSA
-26	dwdRadial	0.776	0.368	35.000	Distance Weighted Discrimination with Radial Basis Function Kernel
-103	RSimca	0.670	0.367	2.170	Robust SIMCA
-127	xyf	0.715	0.339	4.740	Self-Organizing Maps
-9	bdk	0.713	0.323	5.170	Self-Organizing Map
-76	pam	0.729	0.321	7.000	Nearest Shrunken Centroids
-98	rpartCost	0.729	0.316	0.870	Cost-Sensitive CART
-72	OneR	0.706	0.313	0.990	Single Rule Classification
-61	lvq	0.705	0.296	1.350	Learning Vector Quantization
-70	nnet	0.704	0.295	2.800	Neural Network
-28	elm	0.669	0.171	1.170	Extreme Learning Machine
-107	slda	0.671	0.143	1.390	Stabilized Linear Discriminant Analysis
-12	BstLm	0.644	0.026	2.840	Boosted Linear Model
-67	mlpWeightDecayML	0.648	0.000	34.630	Multi-Layer Perceptron, multiple layers
-66	mlpWeightDecay	0.648	0.000	34.260	Multi-Layer Perceptron
-25	dnn	0.648	0.000	5.220	Stacked AutoEncoder Deep Neural Network
-108	sparseLDA	0.354	-0.001	1.660	Sparse Linear Discriminant Analysis
-64	mlp	0.647	-0.001	12.560	Multi-Layer Perceptron
-65	mlpML	0.647	-0.001	12.020	Multi-Layer Perceptron, with multiple layers
+Num	Name	Accuracy	Kappa	time [s]	Model name
+73	ORFlog	0.844	0.656	682	Oblique Random Forest
+89	rf	0.849	0.656	4.24	Random Forest
+75	ORFridge	0.846	0.655	1494.08	Oblique Random Forest
+74	ORFpls	0.846	0.654	367.87	Oblique Random Forest
+77	parRF	0.847	0.652	9.52	Parallel Random Forest
+11	Boruta	0.847	0.652	132.71	Random Forest with Additional Feature Selection
+86	ranger	0.845	0.651	23.89	Random Forest
+30	extraTrees	0.846	0.648	20.36	Random Forest by Randomization
+101	RRFglobal	0.842	0.643	5.21	Regularized Random Forest
+120	treebag	0.836	0.63	2	Bagged CART
+125	xgbLinear	0.834	0.628	43.35	eXtreme Gradient Boosting
+126	xgbTree	0.831	0.623	13.64	eXtreme Gradient Boosting
+100	RRF	0.822	0.602	11.14	Regularized Random Forest
+24	deepboost	0.822	0.601	64.7	DeepBoost
+87	rbfDDA	0.823	0.599	15.19	Radial Basis Function Network
+94	rotationForestCp	0.804	0.555	9.82	Rotation Forest
+84	protoclass	0.796	0.553	4.7	Greedy Prototype Selection
+39	gbm	0.796	0.538	1.4	Stochastic Gradient Boosting
+71	oblique.tree	0.79	0.534	91.98	Oblique Trees
+93	rotationForest	0.793	0.527	5.33	Rotation Forest
+16	C5.0Cost	0.789	0.524	10.3	Cost-Sensitive C5.0
+15	C5.0	0.789	0.524	5.09	C5.0
+118	svmRadialSigma	0.786	0.51	3.24	Support Vector Machines with Radial Basis Function Kernel
+19	cforest	0.786	0.51	32.27	Conditional Inference Random Forest
+1	ada	0.782	0.509	34.96	Boosted Classification Trees
+37	gaussprPoly	0.785	0.506	638.57	Gaussian Process with Polynomial Kernel
+80	pcaNNet	0.775	0.503	3.37	Neural Networks with Feature Extraction
+35	gamLoess	0.779	0.5	1.39	Generalized Additive Model using LOESS
+52	kknn	0.776	0.498	2.48	k-Nearest Neighbors
+38	gaussprRadial	0.78	0.496	55.13	Gaussian Process with Radial Basis Function Kernel
+31	fda	0.778	0.493	0.95	Flexible Discriminant Analysis
+5	bagEarthGCV	0.777	0.492	10.6	Bagged MARS using gCV Pruning
+27	earth	0.777	0.491	1.19	Multivariate Adaptive Regression Spline
+40	gcvEarth	0.777	0.491	0.86	Multivariate Adaptive Regression Splines
+4	bagEarth	0.777	0.491	23.94	Bagged MARS
+119	svmRadialWeights	0.779	0.49	3.11	Support Vector Machines with Class Weights
+116	svmRadial	0.779	0.49	1.49	Support Vector Machines with Radial Basis Function Kernel
+117	svmRadialCost	0.778	0.488	1.52	Support Vector Machines with Radial Basis Function Kernel
+96	rpart1SE	0.77	0.487	0.75	CART
+14	bstTree	0.779	0.486	20.59	Boosted Tree
+7	bagFDAGCV	0.774	0.483	8.12	Bagged FDA using gCV Pruning
+34	gamboost	0.775	0.48	3.4	Boosted Generalized Additive Model
+6	bagFDA	0.773	0.479	19.83	Bagged Flexible Discriminant Analysis
+21	ctree	0.767	0.479	0.98	Conditional Inference Tree
+115	svmPoly	0.778	0.477	6.96	Support Vector Machines with Polynomial Kernel
+32	FRBCS.CHI	0.762	0.476	1254.79	Fuzzy Rules Using Chi's Method
+58	loclda	0.774	0.476	5.1	Localized Linear Discriminant Analysis
+43	glmnet	0.773	0.476	1.07	glmnet
+88	rda	0.773	0.475	3.93	Regularized Discriminant Analysis
+55	lda2	0.773	0.475	0.63	Linear Discriminant Analysis
+2	amdai	0.773	0.475	0.62	Adaptive Mixture Discriminant Analysis
+54	lda	0.773	0.475	0.62	Linear Discriminant Analysis
+48	hdrda	0.773	0.475	8.02	High-Dimensional Regularized Discriminant Analysis
+81	pda	0.773	0.475	0.83	Penalized Discriminant Analysis
+8	bayesglm	0.773	0.475	0.75	Bayesian Generalized Linear Model
+121	vglmAdjCat	0.773	0.474	2.15	Adjacent Categories Probability Model for Ordinal Data
+36	gamSpline	0.773	0.474	1.94	Generalized Additive Model using Splines
+68	multinom	0.773	0.474	0.85	Penalized Multinomial Regression
+41	glm	0.773	0.474	0.66	Generalized Linear Model
+82	plr	0.773	0.474	10.91	Penalized Logistic Regression
+44	glmStepAIC	0.772	0.474	1.19	Generalized Linear Model with Stepwise Feature Selection
+122	vglmContRatio	0.773	0.473	4.06	Continuation Ratio Model for Ordinal Data
+123	vglmCumulative	0.773	0.473	2.68	Cumulative Probability Model for Ordinal Data
+62	mda	0.773	0.473	1.31	Mixture Discriminant Analysis
+109	spls	0.773	0.471	4.13	Sparse Partial Least Squares
+91	rlda	0.74	0.471	1.67	Regularized Linear Discriminant Analysis
+42	glmboost	0.771	0.469	1.11	Boosted Generalized Linear Model
+102	rrlda	0.752	0.467	24.74	Robust Regularized Linear Discriminant Analysis
+69	nb	0.764	0.466	3.65	Naive Bayes
+114	svmLinearWeights	0.77	0.466	2.36	Linear Support Vector Machines with Class Weights
+113	svmLinear2	0.77	0.466	1.25	Support Vector Machines with Linear Kernel
+90	rfRules	0.769	0.466	475.51	Random Forest Rule-Based Model
+97	rpart2	0.766	0.465	0.81	CART
+112	svmLinear	0.769	0.464	0.92	Support Vector Machines with Linear Kernel
+33	FRBCS.W	0.776	0.463	1218.4	Fuzzy Rules with Weight Factor
+60	lssvmRadial	0.767	0.462	8.93	Least Squares Support Vector Machine with Radial Basis Function Kernel
+105	sdwd	0.771	0.462	1.34	Sparse Distance Weighted Discrimination
+63	Mlda	0.768	0.459	0.81	Maximum Uncertainty Linear Discriminant Analysis
+18	C5.0Tree	0.754	0.455	0.7	Single C5.0 Tree
+49	J48	0.756	0.455	2.93	C4.5-like Trees
+104	sda	0.764	0.454	1.11	Shrinkage Discriminant Analysis
+10	blackboost	0.763	0.448	4.98	Boosted Tree
+23	dda	0.737	0.446	3.2	Diagonal Discriminant Analysis
+50	JRip	0.753	0.442	3.62	Rule-Based Classifier
+17	C5.0Rules	0.749	0.439	0.75	Single C5.0 Ruleset
+78	PART	0.746	0.439	15.49	Rule-Based Classifier
+45	gpls	0.757	0.434	15.14	Generalized Partial Least Squares
+83	pls	0.758	0.434	0.81	Partial Least Squares
+124	widekernelpls	0.758	0.434	0.78	Partial Least Squares
+106	simpls	0.758	0.434	0.76	Partial Least Squares
+51	kernelpls	0.758	0.434	0.73	Partial Least Squares
+29	evtree	0.754	0.433	119.09	Tree Models from Genetic Algorithms
+59	LogitBoost	0.747	0.43	1.04	Boosted Logistic Regression
+46	hda	0.751	0.423	14.34	Heteroscedastic Discriminant Analysis
+99	rpartScore	0.748	0.423	14.29	CART or Ordinal Responses
+95	rpart	0.748	0.423	0.81	CART
+13	bstSm	0.758	0.421	13.74	Boosted Smoothing Spline
+85	qda	0.745	0.42	0.65	Quadratic Discriminant Analysis
+57	LMT	0.74	0.419	5.76	Logistic Model Trees
+56	Linda	0.737	0.418	1.91	Robust Linear Discriminant Analysis
+47	hdda	0.74	0.416	0.86	High Dimensional Discriminant Analysis
+92	rocc	0.751	0.412	1.53	ROC-Based Classifier
+53	knn	0.739	0.41	0.77	k-Nearest Neighbors
+22	ctree2	0.746	0.409	1.53	Conditional Inference Tree
+3	avNNet	0.746	0.394	12.67	Model Averaged Neural Network
+110	stepLDA	0.744	0.391	7.36	Linear Discriminant Analysis with Stepwise Feature Selection
+20	CSimca	0.692	0.389	1.22	SIMCA
+111	stepQDA	0.744	0.387	7.4	Quadratic Discriminant Analysis with Stepwise Feature Selection
+79	partDSA	0.725	0.377	12.29	partDSA
+26	dwdRadial	0.776	0.368	35	Distance Weighted Discrimination with Radial Basis Function Kernel
+103	RSimca	0.67	0.367	2.17	Robust SIMCA
+127	xyf	0.715	0.339	4.74	Self-Organizing Maps
+9	bdk	0.713	0.323	5.17	Self-Organizing Map
+76	pam	0.729	0.321	7	Nearest Shrunken Centroids
+98	rpartCost	0.729	0.316	0.87	Cost-Sensitive CART
+72	OneR	0.706	0.313	0.99	Single Rule Classification
+61	lvq	0.705	0.296	1.35	Learning Vector Quantization
+70	nnet	0.704	0.295	2.8	Neural Network
+28	elm	0.669	0.171	1.17	Extreme Learning Machine
+107	slda	0.671	0.143	1.39	Stabilized Linear Discriminant Analysis
+12	BstLm	0.644	0.026	2.84	Boosted Linear Model
+67	mlpWeightDecayML	0.648	0	34.63	Multi-Layer Perceptron, multiple layers
+66	mlpWeightDecay	0.648	0	34.26	Multi-Layer Perceptron
+25	dnn	0.648	0	5.22	Stacked AutoEncoder Deep Neural Network
+108	sparseLDA	0.354	-0.001	1.66	Sparse Linear Discriminant Analysis
+64	mlp	0.647	-0.001	12.56	Multi-Layer Perceptron
+65	mlpML	0.647	-0.001	12.02	Multi-Layer Perceptron, with multiple layers
+
