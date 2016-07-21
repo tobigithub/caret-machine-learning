@@ -2,7 +2,8 @@
 # The  output from  fast (working) binary classification models is
 # exported to a sortable table in a web browser using the DT library
 # https://github.com/tobigithub/caret-machine-learning
-# Tobias Kind (2015)
+# R3.3.1 and caret_6.0-70
+# Tobias Kind (2016)
 
 # use mlbench, caret and DT library
 require(mlbench)
@@ -23,11 +24,14 @@ length(m); m;
 removeModels <- c("AdaBag", "AdaBoost.M1", "FH.GBML", "pda2", "PenalizedLDA",
 "GFS.GCCL", "rbf", "RFlda", "nodeHarvest", "ORFsvm", "dwdLinear", "dwdPoly", "gam",
 "gaussprLinear", "ownn", "sddaLDA", "sddaQDA", "SLAVE", "smda", "snn", "rmda", 
-"rFerns", "wsrf")
+"rFerns", "wsrf","ordinalNet","awnb", "awtan","manb","nbDiscrete","nbSearch","tan",
+"tanSearch","bartMachine","randomGLM", "Rborist", "adaboost")
 
 #remove all slow and failed models from model list
 m <- m[!m %in% removeModels]
- 
+
+#m <- c("glm","gbm",  "adaboost" ,"rf")
+
 # pre-load all packages (does not really work due to other dependencies)
 suppressPackageStartupMessages(ll <-lapply(m, require, character.only = TRUE))
 
@@ -35,11 +39,16 @@ suppressPackageStartupMessages(ll <-lapply(m, require, character.only = TRUE))
 sessionInfo()
 
 # load X and Y (this will be transferred to to train function)
-X = PimaIndiansDiabetes[,1:8]
-Y = PimaIndiansDiabetes$diabetes 
+#X = PimaIndiansDiabetes[1:60,1:8]
+#Y = PimaIndiansDiabetes$diabetes[1:60]
+ X = PimaIndiansDiabetes[,1:8]
+ Y = PimaIndiansDiabetes$diabetes
 
 # register parallel front-end
 library(doParallel); cl <- makeCluster(detectCores()); registerDoParallel(cl)
+
+# this is required otherwise the first method is benchmarked wrong
+warmup <-train(y=Y, x=X, "rf", trControl = trainControl(method = "boot632"))
 
 # this setup actually calls the caret::train function, in order to provide
 # minimal error handling this type of construct is needed.
@@ -124,3 +133,4 @@ datatable(df1,  options = list(
 
 
 ### END
+
